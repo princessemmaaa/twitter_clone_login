@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1da1f2;
+}
+
+.form{
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    /*margin-top: 50px;*/
+    padding-top: 325px;
+    color: cornsilk;
+    text-transform: uppercase;
+}
+
+input {
+    margin-top: 3px;
+    width: 350px;
+    height: 32px;
+    font-size: 12px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 2px;
+    font-size: 17px; 
+    color: cornsilk;
+}
+
+.login {
+    margin-top: 35px;
+    margin-left: 110px;
+    width: 100px;
+    height: 33px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border: none;
+    color: rgb(28, 28, 28);
+    transition: all .5s;
+}
+
+button:hover {
+    background-color: #1da1f2;
+    color: cornsilk
+}
+
+hr{
+    border: none;
+    border-top: 4px solid cornsilk;
+    max-width: 270px;
+    margin: 10px auto;
+}
+
+.container {
+    /*width: 500px;
+    height: 500px;
+    background-color: rgba (0, 0, 0, 0.407);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);*/
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.checkbox {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-size: large;
+    color: cornsilk;
+}
+
+.checkbox:hover {
+    color: black;
+}
+
+.checkbox input {
+    position: sticky;
+    /* opscity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;*/
+    top: -25;
+    left: 0;
+    height: 25px;
+    width: 25px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: cornsilk;
+
+}
+
+.password-link {
+    position: absolute;
+    float: middle;
+    padding-top: 35px;
+    left: 195px;
+    
+}
